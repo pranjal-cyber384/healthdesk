@@ -103,15 +103,26 @@ app.use('/api/v1/symptoms', symptomRoutes);
 app.use('/api/v1/notifications', notificationRoutes);
 
 // ==========================================
+// ROOT ROUTE
+// ==========================================
+
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "HealthDesk API is running 🚀"
+  });
+});
+
+// ==========================================
 // SERVE FRONTEND IN PRODUCTION
 // ==========================================
-if (process.env.NODE_ENV === 'production') {
-  const clientBuildPath = path.join(__dirname, '..', '..', 'client', 'dist');
-  app.use(express.static(clientBuildPath));
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(clientBuildPath, 'index.html'));
-  });
-}
+// if (process.env.NODE_ENV === 'production') {
+//   const clientBuildPath = path.join(__dirname, '..', '..', 'client', 'dist');
+//   app.use(express.static(clientBuildPath));
+//   app.get('*', (req, res) => {
+//     res.sendFile(path.join(clientBuildPath, 'index.html'));
+//   });
+// }
 
 // ==========================================
 // ERROR HANDLING
