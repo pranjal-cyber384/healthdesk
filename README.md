@@ -427,3 +427,67 @@ Node.js + Express Backend
 📸 Screenshots
 
 
+
+
+📡 API Modules
+
+The backend is organized into modular REST APIs.
+
+/api/v1/auth
+/api/v1/users
+/api/v1/doctors
+/api/v1/patients
+/api/v1/appointments
+/api/v1/prescriptions
+/api/v1/payments
+/api/v1/medical-records
+/api/v1/verification
+/api/v1/admin
+/api/v1/symptoms
+/api/v1/notifications
+
+This modular architecture makes the backend easier to maintain, test, and extend.
+
+🎯 Project Goals
+
+HealthDesk was developed to demonstrate how a modern full-stack application can combine:
+
+Full-stack web development
+REST API architecture
+Authentication and authorization
+Relational database design
+Role-based application workflows
+AI integration
+Cloud deployment
+Production environment configuration
+Secure API communication
+🔮 Future Improvements
+
+Possible future improvements include:
+
+Video consultation
+Real-time doctor-patient chat
+More advanced AI health insights
+Medical document analysis
+Appointment reminders
+Email/SMS notifications
+Advanced analytics dashboard
+Cloud-based medical file storage
+Improved AI safety and response validation
+👨‍💻 Developer
+
+Pranjal Mishra
+
+MERN Stack Developer
+
+Skills
+MERN Stack
+JavaScript
+MySQL
+Azure Fundamentals
+Power BI
+AI API Integration
+REST APIs
+Git & GitHub
+Cloud Deployment
+
