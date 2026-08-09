@@ -744,25 +744,6 @@ Expected response:
 
 ---
 
-# 📸 Screenshots
-
-Screenshots of the application will be added here.
-
-Suggested screenshots include:
-
-- Patient Dashboard
-- Doctor Dashboard
-- Admin Dashboard
-- Doctor Search
-- Appointment Management
-- Medical Records
-- AI Health Assessment
-- Doctor Verification
-- Profile Management
-- Payment Interface
-
----
-
 # 🎯 Project Goals
 
 HealthDesk was developed to demonstrate how a modern full-stack application can combine:
