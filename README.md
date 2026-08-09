@@ -117,8 +117,8 @@ Groq API
 AI Response
        ↓
 Preliminary Health Assessment
-
-🏗️ System Architecture
+---
+##🏗️ System Architecture
 
                     ┌──────────────────────┐
                     │      React + Vite    │
@@ -141,8 +141,8 @@ Preliminary Health Assessment
         │     Railway     │              │   AI Service    │
         └─────────────────┘              └─────────────────┘
 
-
-🛠️ Tech Stack
+---
+##🛠️ Tech Stack
 Frontend
 React.js
 Vite
@@ -182,7 +182,10 @@ Netlify — Frontend
 Render — Backend
 Railway — MySQL Database
 
-📂 Project Structure
+
+---
+
+##📂 Project Structure
 
 HealthDesk/
 │
@@ -399,9 +402,9 @@ Frontend will normally run on:
 http://localhost:5173
 
 
-🌐 Production Deployment
+##🌐 Production Deployment
 
-🔄 Production Request Flow
+###🔄 Production Request Flow
 User
   │
   ▼
@@ -419,9 +422,7 @@ Node.js + Express Backend
   │
   └──────────────► Razorpay
 
-Live application:
 
-https://helthymee.netlify.app/
 
 📸 Screenshots
 
